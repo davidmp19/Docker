@@ -22,9 +22,13 @@
 ```
     $ docker stop autorecambios-mysql
 ```  
+<<<<<<< HEAD
 6. Para destuir el contenedor:
 ```
     $ docker compose down
 ```
 7. Si se tiene la aplicación de docker desktop se puede arrancar y parar desde allí.
 
+=======
+#### 6: Si se tiene la aplicación de docker desktop se puede arrancar y parar desde allí.
+>>>>>>> 242ed67adfc6d59a3aae71788c7a5852ac62a84a
