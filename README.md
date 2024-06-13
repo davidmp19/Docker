@@ -1,6 +1,5 @@
 # Instalación y despliege de las bases de datos con docker
 
-<<<<<<< HEAD
 ## Requisitos:
 #### Tener docker desktop instalado y abierto.
 #### Link de descarga: [aqui](https://www.docker.com/products/docker-desktop/)
