@@ -36,7 +36,7 @@ CREATE TABLE `coche` (
 
 LOCK TABLES `coche` WRITE;
 /*!40000 ALTER TABLE `coche` DISABLE KEYS */;
-INSERT INTO `coche` VALUES ('12345A','For','Fiesta'),('12345B','Porsche','911 Carrera'),('12345C','Ferrari','Testarossa'),('12345D','Volkswagen','Polo'),('12345E','Mercedes','E55 AMG'),('12345F','Mercedes','CLK'),('12345G','Ferrari','Italia 458'),('12345H','Lamborghini','Urus'),('12345I','audi','a4'),('12345J','bmw','serie 3'),('12345K','honda','civic'),('12345Z','Volkswagen','golf');
+INSERT INTO `coche` VALUES ('12345A','Ford','Fiesta'),('12345B','Porsche','911 Carrera'),('12345C','Ferrari','Testarossa'),('12345D','Volkswagen','Polo'),('12345E','Mercedes','E55 AMG'),('12345F','Mercedes','CLK'),('12345G','Ferrari','Italia 458'),('12345H','Lamborghini','Urus'),('12345I','Audi','A4'),('12345J','BMW','Serie 3'),('12345K','Honda','Civic'),('12345Z','Volkswagen','Golf');
 /*!40000 ALTER TABLE `coche` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -61,7 +61,7 @@ CREATE TABLE `proveedor` (
 
 LOCK TABLES `proveedor` WRITE;
 /*!40000 ALTER TABLE `proveedor` DISABLE KEYS */;
-INSERT INTO `proveedor` VALUES ('11111111A','Oviedo','Proveedor de Neumáticos'),('11111111B','Oviedo','Proveedor de Frenos'),('11111111C','Oviedo','Proveedor de Motores'),('11111111D','Oviedo','Proveedor de Baterías'),('11111111E','Calle Mayor, Gijón','Recambios Gijón'),('53512555L','cangas de onis, 3','pruebaProveedoredit'),('53512555Z','aqui','DAVID');
+INSERT INTO `proveedor` VALUES ('11111111A','Calle de Neumáticos, Oviedo','Proveedor de Neumáticos'),('11111111B','Calle de Frenos, Oviedo','Proveedor de Frenos'),('11111111C','Calle de Motores, Oviedo','Proveedor de Motores'),('11111111D','Calle de Baterías, Oviedo','Proveedor de Baterías'),('11111111E','Calle Mayor, Gijón','Recambios Gijón'),('53512555L','Cangas de Onís, 3','Proveedor de Prueba');
 /*!40000 ALTER TABLE `proveedor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -91,7 +91,7 @@ CREATE TABLE `repuesto` (
 
 LOCK TABLES `repuesto` WRITE;
 /*!40000 ALTER TABLE `repuesto` DISABLE KEYS */;
-INSERT INTO `repuesto` VALUES ('A123456789A','ta weno','SERGIOO',0,13,NULL),('A123456789Z','este es un muy buen repuesto','DAVID',10,10,'12345F'),('B123456789B','Sistema de frenado completo','Frenos',15,20,'12345B'),('C123456789C','Motor de combustión interna de alto rendimiento','Motor',200,1,'12345C'),('D123456789D','Batería de alta capacidad','Batería',30,2,'12345D'),('E123456789E','Faros delanteros LED','Faros',12,2,'12345E'),('F123456789F','Juego de llantas de aleación','Llantas',10,4,'12345F'),('G123456789G','Suspensión deportiva ajustable','Suspensión',18,2,'12345G'),('H123456789H','Sistema de escape deportivo','Escapes',22,2,'12345H'),('hdsklksdlknlkdmlsmdkdlkadadajldjaljdalkjd','buen repuesto','repuesto100',0,0,'12345E'),('K123456789K','Motor de combustión interna','Motor',150,1,'12345I'),('L123456789L','Batería de 12V','Batería',30,1,'12345J'),('M123456789M','Juego de faros delanteros LED','Faros delanteros',10,2,'12345K'),('N123456789N','Filtro de aire de alto rendimiento','Filtro de aire',2,3,'12345A');
+INSERT INTO `repuesto` VALUES ('A123456789A','Neumático radial de alto rendimiento','Neumático',12,50,'12345A'),('A123456789Z','Filtro de aire de alto rendimiento','Filtro de aire',1,100,'12345B'),('B123456789B','Sistema de frenado completo','Frenos',15,20,'12345B'),('C123456789C','Motor de combustión interna de alto rendimiento','Motor',200,1,'12345C'),('D123456789D','Batería de alta capacidad','Batería',30,2,'12345D'),('E123456789E','Faros delanteros LED','Faros',12,2,'12345E'),('F123456789F','Juego de llantas de aleación','Llantas',10,4,'12345F'),('G123456789G','Suspensión deportiva ajustable','Suspensión',18,2,'12345G'),('H123456789H','Sistema de escape deportivo','Escapes',22,2,'12345H'),('I123456789I','Espejos retrovisores eléctricos','Espejos',2,10,'12345E'),('K123456789K','Motor de combustión interna','Motor',150,1,'12345I'),('L123456789L','Batería de 12V','Batería',30,1,'12345J'),('M123456789M','Juego de faros delanteros LED','Faros delanteros',10,2,'12345K'),('N123456789N','Filtro de aceite de alto rendimiento','Filtro de aceite',2,3,'12345A');
 /*!40000 ALTER TABLE `repuesto` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -120,7 +120,7 @@ CREATE TABLE `suministra` (
 
 LOCK TABLES `suministra` WRITE;
 /*!40000 ALTER TABLE `suministra` DISABLE KEYS */;
-INSERT INTO `suministra` VALUES (18,'11111111A','A123456789A'),(19,'11111111B','B123456789B'),(20,'11111111C','C123456789C'),(21,'11111111D','D123456789D'),(22,'11111111A','E123456789E'),(23,'11111111A','F123456789F'),(24,'11111111A','G123456789G'),(25,'11111111A','H123456789H'),(26,'11111111E','K123456789K'),(27,'11111111E','L123456789L'),(28,'11111111E','M123456789M'),(29,'11111111E','N123456789N');
+INSERT INTO `suministra` VALUES (1,'11111111A','A123456789A'),(2,'11111111B','B123456789B'),(3,'11111111C','C123456789C'),(4,'11111111D','D123456789D'),(5,'11111111A','E123456789E'),(6,'11111111A','F123456789F'),(7,'11111111A','G123456789G'),(8,'11111111A','H123456789H'),(9,'11111111E','K123456789K'),(10,'11111111E','L123456789L'),(11,'11111111E','M123456789M'),(12,'11111111E','N123456789N');
 /*!40000 ALTER TABLE `suministra` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -146,7 +146,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (5,'$2a$12$HKDzfhaHdqNmlWW0OAK0x.BzfrLFJ1mejJDe53sPQJe9pDAyAKmNa','alejandro'),(6,'$2a$12$F3xcrUIsHRJVS3jGix.L8emvf4bSlcDgrK19zFLI7620gczlYAR/2','usuario1'),(7,'$2a$12$MAGpqZXWe42TeZTqpW8K9.vSYAwan1VZeTZ8F7VTBg5JStWJ7Y5Ea','david'),(8,'$2a$10$bhOQQ1N6ZnboKiHgziBh6uqng9Std1rpB2MCZKgfVNAeX1NnD3962','hola'),(9,'$2a$10$wfkWFUQv6i6AebPI0DVonuJIBHk9qccloz.lBdTB865/MSvNf1yy2','balbi'),(10,'$2a$10$cIhATDmIGT/8MCFrgKYZ9.6xug9/qlyhNu57FH/HR037i/SEvwW.e','valerie');
+INSERT INTO `usuario` VALUES (1,'$2a$12$HKDzfhaHdqNmlWW0OAK0x.BzfrLFJ1mejJDe53sPQJe9pDAyAKmNa','alejandro'),(2,'$2a$12$F3xcrUIsHRJVS3jGix.L8emvf4bSlcDgrK19zFLI7620gczlYAR/2','usuario1'),(3,'$2a$12$MAGpqZXWe42TeZTqpW8K9.vSYAwan1VZeTZ8F7VTBg5JStWJ7Y5Ea','david'),(4,'$2a$10$wfkWFUQv6i6AebPI0DVonuJIBHk9qccloz.lBdTB865/MSvNf1yy2','balbi'),(5,'$2a$10$cIhATDmIGT/8MCFrgKYZ9.6xug9/qlyhNu57FH/HR037i/SEvwW.e','valerie');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
