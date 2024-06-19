@@ -6,6 +6,7 @@
 - Link de descarga: [aqui](https://www.docker.com/products/docker-desktop/).
 - Tutorial para la instalación:[aqui](https://docs.docker.com/desktop/install/windows-install/).
 - Que el puerto 3306 esté disponible.
+- Archivo .env con las variables necesarias.
 
 ## Pasos:
  1. Abrir un cmd y desplazarse a donde se tenga la carpeta de docker.
